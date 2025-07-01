@@ -1,0 +1,34 @@
+# 🖼️ Image Processing
+Pillow
+base64
+
+# 📄 PDF Generation
+reportlab
+
+# 🌐 Environment Variable Management
+python-dotenv
+
+# 🔍 Vector Search and Embeddings
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+
+# 🧠 LLM Integration
+groq
+langchain-groq
+
+# ✅ LangChain Utilities
+langchain-core
+langchain-text-splitters
+langchain-docstore
+
+# For ensuring compatibility with A4 page size and units
+reportlab==4.1.0  # Optional version pin
+
+# System or GPU-based FAISS (Choose one)
+# faiss-gpu  # Uncomment if running on GPU instead of faiss-cpu
+
+# 💡 Extras
+# tqdm (optional, for progress bars)
